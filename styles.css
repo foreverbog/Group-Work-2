@@ -10,7 +10,31 @@
 /* HEADER*/
 /* NAV */
 /* SECTION 1 */
+.section.one{
+display: flex;
+
+
+}
+.logo.big{
+    margin: 4rem 13rem 5rem 20rem;
+}
+.our.story{
+    margin-top: 4rem;
+   margin-right: 20rem;
+}
+.learn.more{
+    background-color: white;
+    border-color: aqua;
+    color: aqua;
+    padding: 0.7rem;
+}
 /* SECTION 2 */
+.section.two{
+    
+}
+.play.png{
+    background-position: 100%;
+}
 /* SECTION 3 */
 /* SECTION 4 */
 /* SECTION 5 */
