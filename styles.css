@@ -16,17 +16,22 @@ display: flex;
 
 }
 .logo.big{
-    margin: 4rem 13rem 5rem 20rem;
+    margin: 4rem 5rem 4rem 20rem;
 }
 .our.story{
     margin-top: 4rem;
    margin-right: 20rem;
+}
+.our.story h2{
+    padding-bottom: 1rem;
 }
 .learn.more{
     background-color: white;
     border-color: aqua;
     color: aqua;
     padding: 0.7rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
 }
 /* SECTION 2 */
 .section.two{
