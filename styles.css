@@ -15,4 +15,65 @@
 /* SECTION 3 */
 /* SECTION 4 */
 /* SECTION 5 */
-/* FOOTER */
+.form-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem;
+    
+}
+
+.container-contact-form-clients{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    width: 80%;
+    
+}
+
+.div-brands-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.item-brands-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 2rem;
+    
+}
+.form-button{
+    height: 2rem;
+    width: 5.5rem;
+    color: #00E0D0;
+    background-color: white;
+    border:1px solid #00E0D0 ;
+    font-family:'Hammersmith One', sans-serif;
+}
+#input-form{
+    height: 2rem;
+    border: 0.5px solid #E5E5E5;
+}
+.textarea{
+    border: 0.5px solid #E5E5E5;
+
+}
+.contact-form{
+    width: 50%;    
+}
+#section5-heading{
+    color: #413D4B;
+    font: 22px, "playfair Display", serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10rem;
+}
+
+.container-contact-form-clients{
+    width: 70%;
+    margin: 0 auto;   
+}
