@@ -6,12 +6,68 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
-
-/* HEADER*/
 /* NAV */
 /* SECTION 1 */
+.section.one{
+display: flex;
+align-items: center;
+gap: 2rem;
+max-width:1024px ;
+margin-inline: auto;
+padding: 5rem 2rem;
+
+}
+.logo.big{
+    padding-right: 5rem;
+    margin-bottom: 12rem;
+}
+.our.story{
+    width: 65ch;
+}
+.our.story p{
+    font-family:"Open Sans", sans-serif;
+    line-height: 1.1em;
+}
+.our.story h2{
+    font-family:"Open Sans", sans-serif;
+    padding-bottom: 1rem;
+}
+.learn.more{
+    background-color: white;
+    border-color: aqua;
+    color: aqua;
+    padding: 0.7rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+.learn.more button{
+    font-family:"Open Sans", sans-serif;
+}
 /* SECTION 2 */
+.section.two img{
+    display: block;
+        
+}
+.section.two{
+    color: white;
+    flex-direction: column;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/bgk-middle.png');
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section.two p{
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+
 /* SECTION 3 */
 /* SECTION 4 */
 /* SECTION 5 styling starts here*/
