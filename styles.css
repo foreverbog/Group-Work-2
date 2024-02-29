@@ -12,6 +12,60 @@
 
 /* HEADER*/
 
+header{
+    background-image: url(./images/bgk-header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    color: white;
+}
+header .text-wrapper{
+    margin: 7rem auto auto auto;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: #C4C3CF;
+    padding-bottom: 10rem;
+}
+header .text-wrapper h1{
+    font-family: "Playfair Display", sans-serif;
+    text-align: center;
+    color:white;
+}
+header .text-wrapper .line{
+    background-color: #68D9CD;
+    height: 1px;
+    width: 50px;
+    margin: 20px;
+    text-align: center;
+}
+header .text-wrapper p{
+    text-align:center;
+    line-height: 1.8;
+    margin: 20px;
+}
+header button{
+    background-color:inherit;
+    border: 1px solid #68D9CD;
+    border-radius: 3px;
+    color: #68D9CD;
+    padding: 10px 15px;
+    font-family: "Hammersmith One", sans-serif;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+header button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color:black;
+    transition: all .5s;
+}
+
+
+
 /* NAV */
 nav{
     display:flex;
