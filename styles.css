@@ -51,6 +51,9 @@ padding: 5rem 2rem;
         
 }
 .section.two{
+    color: white;
+    flex-direction: column;
+    padding-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +61,10 @@ padding: 5rem 2rem;
     height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.section.two p{
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
 }
 
 
