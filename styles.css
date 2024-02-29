@@ -80,6 +80,8 @@
 /* Footer styling starts here */
 footer{    
     background-image: url(./images/bgk-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container-footer-row1{
     display: flex; 
@@ -118,12 +120,16 @@ footer{
 #footer-links-address{
     list-style: none;
     padding: 0.7rem;
+    font-size: 14px;
     
 }
 .ft-our-studio ul li img{
     margin-right: 1rem;
 }
-
+.ft-our-studio h4{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
 .made-with-love-text{
     padding: 2rem;
     margin-left:2rem ;
@@ -135,9 +141,17 @@ footer{
     /* border: 1px solid red;  */
     padding: 1rem;
 }
+.ft-stay-in-touch h4{
+    font-size: 0.8rem;
+}
+
 .searchBox-button{
-    padding: 1rem;
-    
+    padding: 1rem;    
+}
+.searchBox-button form{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }
 .input-search{
     font-size: 14px;
@@ -158,6 +172,10 @@ footer{
     padding: 7PX;   
     
 }
+.ft-stay-in-touch h4{
+    margin-left: 1rem;
+}
+
 /* .search-btn img{
     margin-bottom: 20PX;
 } */
@@ -168,12 +186,14 @@ footer{
 .ft-F-X-G-I-logo{
     padding: 0.2rem;
 }
-
-#footer-links-address{
- font-size: 17px;
+.facebook-logo {
+    margin-left: 0.8rem;
 }
 
 .footer-container{
     padding: 4rem 0 1rem 0;
+}
+.help-privacy a{
+padding: 0.8rem;
 }
 /***footer styling ends here ***/
