@@ -14,21 +14,20 @@
 /* SECTION 2 */
 /* SECTION 3 */
 /* SECTION 4 */
-/* SECTION 5 */
+/* SECTION 5 styling starts here*/
 .form-item{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin: 1rem;
-    
+    margin: 1rem;    
 }
 
 .container-contact-form-clients{
     display: flex;
     align-items: start;
     justify-content: space-around;
-    width: 80%;
-    
+    width: 80%;   
+    padding: 4rem 0; 
 }
 
 .div-brands-logo{
@@ -60,7 +59,6 @@
 }
 .textarea{
     border: 0.5px solid #E5E5E5;
-
 }
 .contact-form{
     width: 50%;    
@@ -77,3 +75,105 @@
     width: 70%;
     margin: 0 auto;   
 }
+/* SECTION 5 styling ends here*/
+
+/* Footer styling starts here */
+footer{    
+    background-image: url(./images/bgk-footer.png);
+}
+.container-footer-row1{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid black; */
+    gap: 1rem;
+}
+.tajam-logo-paragraph{
+    width: 30%; 
+    /* border: 1px solid red;  */
+    padding: 1rem;  
+}
+.ft-our-studio{
+    display: flex;
+    width: 30%;  
+    /* border: 1px solid red; */
+    padding: 1rem; 
+}
+.footer-container-row2{
+    display: flex;
+    justify-content: center;
+}
+.help-privacy{
+    padding: 2rem;
+    margin-right: 3rem;
+}
+.help-privacy a, .made-with-love-text, .ft-our-studio, .ft-stay-in-touch, 
+.tajam-logo-paragraph{
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+#footer-links-address{
+    list-style: none;
+    padding: 0.7rem;
+    
+}
+.ft-our-studio ul li img{
+    margin-right: 1rem;
+}
+
+.made-with-love-text{
+    padding: 2rem;
+    margin-left:2rem ;
+}
+
+.ft-stay-in-touch{
+    width: 30%;  
+    margin-top: 2rem;
+    /* border: 1px solid red;  */
+    padding: 1rem;
+}
+.searchBox-button{
+    padding: 1rem;
+    
+}
+.input-search{
+    font-size: 14px;
+    border: 1px solid #a199b4;
+    color: #a199b4;
+    width: 50%;
+    height: 45px;
+    background-color: transparent;
+    text-align: center;
+}
+.search-btn{
+    border: 1px solid #a199b4;
+    color: #a199b4;
+    width: 15%;
+    height: 45px; 
+    background-color: #82769f;
+    margin-left: 5px; 
+    padding: 7PX;   
+    
+}
+/* .search-btn img{
+    margin-bottom: 20PX;
+} */
+.search-btn:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+.ft-F-X-G-I-logo{
+    padding: 0.2rem;
+}
+
+#footer-links-address{
+ font-size: 17px;
+}
+
+.footer-container{
+    padding: 4rem 0 1rem 0;
+}
+/***footer styling ends here ***/
