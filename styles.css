@@ -161,9 +161,6 @@ padding: 5rem 2rem;
     font-weight: bold;
 }
 
-
-/* SECTION 3 */
-/* SECTION 4 */
 /* SECTION 5 styling starts here*/
 .form-item{
     display: flex;
@@ -176,16 +173,31 @@ padding: 5rem 2rem;
     display: flex;
     align-items: start;
     justify-content: space-around;
-    width: 80%;   
     padding: 4rem 0; 
+    width: 70%;
+    margin: 0 auto;  
 }
-
 .div-brands-logo{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin: 2rem;
+    gap: 1rem;
 }
+.container-happy-client img{
+    aspect-ratio: 2/2;
+    width: 5rem;
+    /* margin: 1rem; */
+    object-fit: contain;
+}
+/* .container-happy-client h2{
+    margin-left: 10px;
+} */
+#section5-heading{
+    color: #413D4B;
+    font-size: 20px;
+    font-family: 'playfair Display', serif;
+    padding: 1rem 0 ;
+    margin-left: 1rem;
+} 
 
 .item-brands-logo{
     display: flex;
@@ -213,18 +225,23 @@ padding: 5rem 2rem;
 .contact-form{
     width: 50%;    
 }
-#section5-heading{
-    color: #413D4B;
-    font: 22px, "playfair Display", serif;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-left: 10rem;
-}
 
-.container-contact-form-clients{
-    width: 70%;
-    margin: 0 auto;   
-}
+
+@media screen and (max-width: 855px) {
+    .container-contact-form-clients{
+        display: flex;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+
+    .div-brands-logo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    
+} 
 /* SECTION 5 styling ends here*/
 
 /* Footer styling starts here */
@@ -288,7 +305,6 @@ footer{
 .ft-stay-in-touch{
     width: 30%;  
     margin-top: 2rem;
-    /* border: 1px solid red;  */
     padding: 1rem;
 }
 .ft-stay-in-touch h4{
@@ -326,9 +342,6 @@ footer{
     margin-left: 1rem;
 }
 
-/* .search-btn img{
-    margin-bottom: 20PX;
-} */
 .search-btn:hover{
     background-color: #ffffff;
     transition: 0.5s;
