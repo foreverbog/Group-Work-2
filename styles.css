@@ -104,6 +104,15 @@ nav{
     color:#68DBCD;
     transition: all .5s;
 }
+@media screen and (max-width: 660px){
+    .nav-left {
+        margin-bottom: 1rem;
+    }
+    .nav-right ul{
+        justify-content: space-around;
+    }
+
+}
 /* SECTION 1 */
 .section.one{
 display: flex;
