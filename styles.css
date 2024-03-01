@@ -330,9 +330,6 @@ section div div div p {
     font-family: 'hammersmith_oneregular';
 }
 
-/* SECTION 5 */
-/* FOOTER */
-
 /* SECTION 5 styling starts here*/
 .form-item{
     display: flex;
@@ -397,23 +394,6 @@ section div div div p {
 .contact-form{
     width: 50%;    
 }
-
-
-@media screen and (max-width: 855px) {
-    .container-contact-form-clients{
-        display: flex;
-        flex-direction: column;
-        flex-flow: row wrap;
-    }
-
-    .div-brands-logo{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 0.5rem;
-        width: 100%;
-    }
-    
-} 
 /* SECTION 5 styling ends here*/
 
 /* Footer styling starts here */
@@ -510,6 +490,9 @@ footer{
     padding: 7PX;   
     
 }
+.search-btn img{
+    max-width: 100% ;
+}
 .ft-stay-in-touch h4{
     margin-left: 1rem;
 }
@@ -532,3 +515,22 @@ footer{
 padding: 0.8rem;
 }
 /***footer styling ends here ***/
+
+@media screen and (max-width: 855px) {
+    .container-contact-form-clients{
+        display: flex;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+
+    .div-brands-logo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    .made-with-love-text{
+        margin-left: 0;
+    }
+    
+} 
